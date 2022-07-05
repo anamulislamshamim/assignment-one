@@ -19,13 +19,17 @@ section{
     text-align: center;
 }
 .banner h1{
-    margin-bottom: 1em;
     font-size: 4em;
+}
+.align_middle h1{
+    margin-bottom: 1em;
     line-height:1.5;
 }
-.banner p{
+.align_middle p{
     margin-bottom:5em;
     line-height: 2;
+    color:rgb(96, 96, 96);
+    font-weight: 500;
 }
 #banner_bg{
     background-image: url(images/donation0.jpg);
@@ -70,6 +74,9 @@ section{
     margin:3em 0em;
     line-height: 2;
 }
+.donate_today h1{
+    color:black;
+}
 .donate_today input{
     width: 100%;
     text-align: center;
@@ -106,11 +113,76 @@ section{
 }
 #donation_plan_section{
     padding-top:0;
+    margin-bottom: 0;
 }
 #donation_plan_heading{
     font-size: 60px;
+    color:black;
 }
 .cart img{
     width:100px;
     height:130px;
+}
+#joinUs{
+    background-image: url(icons/volanteer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+#joinUs p,h1{
+    color:white;
+}
+#joinUs::after{
+    background-color: rgba(0, 0, 0, 0.746);
+    content: '';
+    display:block;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+#subscribe{
+    padding:100px 100px;
+    background-color: rgba(255, 255, 0, 0.176);
+}
+#email{
+    border:none;
+    width: 30%;
+    background-color: rgb(203, 203, 203);
+    outline: none;
+    padding:22px 60px;
+    display: inline-block;
+    margin:0;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 500;
+}
+#submit_button{
+    display: inline-block;
+    border: 0;
+    padding:22px 20px;
+    outline: 0;
+    margin-right: 10px;
+    position:absolute;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orange;
+    color:white;
+    font-weight: 500;
+}
+footer{
+    text-align: center;
+    padding:100px 0px;
+    background-color: black;
+    color:white;
+}
+footer h1{
+    font-family: 'The Nautigal', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color:orangered
 }

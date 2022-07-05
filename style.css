@@ -67,7 +67,7 @@ section{
     padding:50px 30px;
   }
 .donate_today p{
-    margin:2em 0em;
+    margin:3em 0em;
     line-height: 2;
 }
 .donate_today input{
@@ -84,4 +84,33 @@ section{
     border: 2px solid rgb(255, 115, 0);
     background-color: rgba(158, 103, 67, 0.233);
     border-radius: 5px;
+}
+.cart{
+    padding:60px 30px;
+    width:33%;
+    color:black;
+    margin-right: 20px;
+    border-radius:10px;
+}
+.cart h1{
+    margin:1.5em 0em;
+}
+#cart1_bg{
+    background-color: rgba(4, 248, 167, 0.094);
+}
+#cart2_bg{
+    background-color:rgba(255, 192, 203, 0.156);
+}
+#cart3_bg{
+    background-color: rgba(255, 255, 0, 0.176);
+}
+#donation_plan_section{
+    padding-top:0;
+}
+#donation_plan_heading{
+    font-size: 60px;
+}
+.cart img{
+    width:100px;
+    height:130px;
 }
